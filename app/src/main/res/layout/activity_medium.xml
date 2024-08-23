@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E64A19"
+    android:foregroundGravity="center"
+    tools:context=".Medium">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="358dp"
+        android:layout_height="480dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="16dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="0"
+            android:layout_row="0"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="1"
+            android:layout_row="0"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="2"
+            android:layout_row="0"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="0"
+            android:layout_row="1"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="1"
+            android:layout_row="1"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="2"
+            android:layout_row="1"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="0"
+            android:layout_row="2"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="1"
+            android:layout_row="2"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="2"
+            android:layout_row="2"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="0"
+            android:layout_row="3"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="1"
+            android:layout_row="3"
+            app:srcCompat="@drawable/sample3" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="increaseScore"
+            android:layout_column="2"
+            android:layout_row="3"
+            app:srcCompat="@drawable/sample3" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/timeid"
+        android:layout_width="168dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="27dp"
+        android:gravity="center"
+        android:text="TIMER :  30"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scoreid"
+        android:layout_width="185dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="37dp"
+        android:gravity="center"
+        android:text="SCORE :  0"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="1.0"
+        tools:textStyle="bold" />
+
+    <Button
+        android:id="@+id/restartid"
+        android:layout_width="164dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="55dp"
+        android:background="#7B1FA2"
+        android:gravity="center"
+        android:onClick="Restart"
+        android:text="RESTART!"
+        android:textColor="#FAF7F8"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toEndOf="@+id/scoreid"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <Button
+        android:id="@+id/returnToMenuButton"
+        android:layout_width="160dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="33dp"
+        android:background="#FBC02D"
+        android:onClick="Reachmenu"
+        android:text="Return to Menu"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toEndOf="@+id/timeid"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

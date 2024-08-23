@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Koala_Game</string>
+    <string name="return_to_menu">Return to Menu</string>
+    <string name="timer_50">TIMER : 50</string>
+</resources>
