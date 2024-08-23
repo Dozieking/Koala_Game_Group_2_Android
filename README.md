@@ -14,7 +14,6 @@ Folami-Kuteyi Oluwasetemi 21/2812
 Jesugbemi Fikayo Elijah 21/3021
 Ibe Golden Williams-Jefferson 21/2802
 Ayorinde Oluwatunmise Ebenezer 21/1415
-Edigbe Success Ovie 21/0360
 Emeka Nwogu Tobechi 21/2618
 Irikefe Samuel Temitayo 19/1896
 Iwuala Chukwunomso Harry 21/3123
