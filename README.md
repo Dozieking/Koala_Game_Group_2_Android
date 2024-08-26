@@ -13,12 +13,9 @@ Bello DivineFavour Ikoghene  21/0357
 Folami-Kuteyi Oluwasetemi 21/2812
 Jesugbemi Fikayo Elijah 21/3021
 Ibe Golden Williams-Jefferson 21/2802
-Ayorinde Oluwatunmise Ebenezer 21/1415
 Emeka Nwogu Tobechi 21/2618
-Irikefe Samuel Temitayo 19/1896
 Iwuala Chukwunomso Harry 21/3123
 John Joseph Oluwasemilogo 21/1820
-Babaola Michael Olayemi 19/0781
 Awuzie Emmanuel Chisaokwu 21/2933
 Eze Chibuike Joseph 21/1582
 Bankole David 20/3053
